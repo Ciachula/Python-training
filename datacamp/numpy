@@ -1,0 +1,84 @@
+# Import NumPy and alias it as np
+import numpy as np
+
+# Create a list
+numbers = [1, 2, 3, 4, 5]
+
+# Convert the list to an array
+numbers_array = np.array(numbers)
+
+# Print the type of numbers_array
+print(type(numbers_array))
+
+# Create an array
+numbers = np.array([1, 2, 3, 4, 5])
+
+# Multiply the array by 10
+numbers_multiplied = numbers * 10
+
+# Print the array
+print(numbers_multiplied)
+
+# Create an array
+sales = np.array([110, 260, 50, 390, 30])
+
+# Subset the array
+first_sales = sales[0:2]
+
+# Print the subset
+print(first_sales)
+
+# Create an array
+sales = np.array([110, 260, 50, 390, 30])
+
+# Create a Boolean array
+large_sales = sales > 100
+
+# Subset the original array
+print(sales[large_sales])
+
+# Create a list of lists
+sales = [[1, 110],
+         [2, 260],
+         [3, 50]
+        ]
+
+# Convert the list to a NumPy array
+sales_array = np.array(sales)
+
+# Print the array
+print(sales_array)
+
+
+# Create a list of lists
+monthly_sales = [[1, 190],
+         [2, 210],
+         [3, 185]
+        ]
+
+# Convert the list to a NumPy array
+sales_array = np.array(sales)
+
+# Print the second column of the second row
+print(sales_array[1, 1])
+
+# Create a NumPy array of sales
+sales = np.array([190, 210, 185, 235, 170, 270, 240, 225])
+
+# Calculate the average
+print(np.mean(sales))
+
+# Calculate the median
+print(np.median(sales))
+
+# Calculate the standard deviation
+print(np.std(sales))
+
+# Create a NumPy array of sales
+sales = np.array([190, 210, 185, 235, 170, 270, 240, 225])
+
+# Create a NumPy array of marketing expenses
+marketing = np.array([35, 50, 45, 110, 85, 95, 70, 80])
+
+# Calculate the correlation between the two arrays
+print(np.corrcoef(sales, marketing))
