@@ -1,0 +1,44 @@
+# Create a list
+my_list = ["Learning", "Python", "is", "fun!"]
+
+# Print the list
+print(my_list)
+
+# Create a list
+my_list = ["Learning", "Python", "is", "fun!"]
+
+# Print the first element of my_list
+print(my_list[0])
+
+# Print the last element of my_list
+print(my_list[-1])
+
+# Print the first two elements of my_list
+print(my_list[0:2])
+
+# Create a list
+numbers = [1, 2, 3, 4, 4]
+
+# Change the last value
+numbers[-1] = 5
+
+# Print the list
+print(numbers)
+
+# Create a list
+numbers = [1, 2, 3, 4, 5]
+
+# Add additional values
+more_numbers = numbers + [6, 7, 8, 9, 10]
+
+# Print the list
+print(more_numbers)
+
+# Create a list
+numbers = [1, 2, 3, 4, 5]
+
+# Delete the fourth and fifth values in the list
+del(numbers[3:])
+
+# Print the list
+print(numbers)
