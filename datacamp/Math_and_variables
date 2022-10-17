@@ -1,0 +1,35 @@
+# Python Interactive Cheat Sheet
+# Math and Variables
+# Addition
+print(5 + 5)
+
+# Subtraction
+print(10 - 5)
+
+# Multiplication
+print(5 * 10)
+
+# Division
+print(10 / 5)
+
+# Assign a value to x
+x = 5
+
+# Print x
+print(x)
+
+# Assign a variable to x
+x = "testing"
+
+# Print the type of x
+print(type(x))
+
+# Assign a string variable to y
+y = "1"
+
+# Print y as an integer
+print(int(y))
+
+# Print y as a float
+print(float(y))
+
