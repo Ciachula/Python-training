@@ -1,0 +1,28 @@
+# Define a string variable
+x = "data science"
+
+# Convert the string to uppercase
+print(x.upper())
+
+# Convert the string to lowercase
+print(x.lower())
+
+# Count the number of 'a's
+print(x.count("a"))
+
+# Define a list
+colors = ["red", "blue", "red", "red", "blue", "green"]
+
+# Print out the number of times 'red' appears
+print(colors.count("red"))
+
+# Print out the index of the first 'red'
+print(colors.index("red"))
+
+# Add another element to the list
+colors.append("yellow")
+print(colors)
+
+# Reverse the list
+colors.reverse()
+print(colors)
